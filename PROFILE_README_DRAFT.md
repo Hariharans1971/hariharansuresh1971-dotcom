@@ -57,5 +57,6 @@ First-author IEEE ICECA 2025 paper: “Risk-Aware Dynamic Inference for Balancin
 ## Contact
 
 - GitHub: https://github.com/Hariharans1971
-- Portfolio: https://hariharans1971.github.io/portfolio/ (verify live availability before sharing)
+- Portfolio (Vercel production deployment currently marked READY): https://portfolio1-tau-sandy.vercel.app/
+- GitHub Pages fallback (pending Pages source configuration): https://hariharans1971.github.io/portfolio/
 - LinkedIn: https://www.linkedin.com/in/hari-haran-b5aa50272/
