@@ -59,7 +59,7 @@ Streamlit chatbot experiment using the Groq API.
 
 ## Research
 
-First-author IEEE ICECA 2025 paper: “Risk-Aware Dynamic Inference for Balancing the Energy–Safety Tradeoff in Autonomous Driving Systems.” Use the official publication record for the full citation and experimental details.
+First-author IEEE ICECA 2025 paper: [“An Advanced Drug Mechanism of Action (MoA) Prediction Approach from Gene Expression using Transformers and XAI”](https://doi.org/10.1109/ICECA66444.2025.11383205). The matching project prototype is [Drug-MOA-prediction](https://github.com/Hariharans1971/Drug-MOA-prediction).
 
 ## Engineering principles
 
