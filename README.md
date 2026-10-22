@@ -51,7 +51,7 @@ Streamlit chatbot experiment using the Groq API.
 
 ## Research
 
-First-author IEEE ICECA 2025 paper. See the final paper record for the official title, publication details, and experiments.
+First-author IEEE ICECA 2025 paper: “Risk-Aware Dynamic Inference for Balancing the Energy–Safety Tradeoff in Autonomous Driving Systems.” Use the official publication record for the full citation and experimental details.
 
 ## Engineering principles
 
