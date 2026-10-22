@@ -2,6 +2,8 @@
 
 ![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
 
+🌐 **Portfolio site:** [Open the Vercel deployment](https://portfolio1-tau-sandy.vercel.app/) · [Portfolio source and deployment status](https://github.com/Hariharans1971/portfolio)
+
 I am a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate in Chennai, India. I build practical Python projects and am strengthening my skills in REST APIs, SQL, full-stack development, and retrieval-augmented generation (RAG).
 
 ## Featured projects
