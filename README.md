@@ -1,69 +1,66 @@
-# Hariharan S. | Python • AI/ML • Full-Stack Engineering
+# Hariharan S. | Python Developer • Backend • AI/ML
 
-I’m a 2026 Computer Science and Engineering (AI & ML) graduate building practical software with Python, SQL, REST APIs, and retrieval-augmented generation (RAG). I’m focused on writing understandable code, testing real behavior, and documenting projects so another developer can run them.
-
-- **Currently:** building portfolio-grade Python backend and RAG projects
-- **Core skills:** Python, SQL, MySQL, pandas, NumPy, scikit-learn, Flask/FastAPI fundamentals, REST APIs, Git/GitHub
-- **Education:** B.Tech, Computer Science and Engineering (AI & ML), Karunya Institute of Technology and Sciences
-- **Publication:** first-author IEEE conference paper on risk-aware dynamic inference for autonomous driving
-- **Location:** Chennai, India
-- **Open to:** entry-level Python Developer, Backend Developer, AI/ML Engineer, and Forward-Deployed Engineer opportunities
+I am a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate in Chennai, India. I build practical Python projects and am strengthening my skills in REST APIs, SQL, full-stack development, and retrieval-augmented generation (RAG).
 
 ## Featured projects
 
-### 1. ClinicDesk — Full-stack appointment manager
-A small full-stack demo using FastAPI, SQLite, and HTML/CSS/JavaScript. It demonstrates REST endpoints, input validation, persistence, a browser UI, API documentation, automated tests, and GitHub Actions.
-
-- [Source code](https://github.com/Hariharans1971/Clinic)
-- [CI workflow](https://github.com/Hariharans1971/Clinic/actions)
-
-> Educational demonstration only; not for real patient or health information.
-
-### 2. Document Analysis + RAG
-A document analysis project with PDF/DOCX parsing, migration-readiness metrics, and a RAG retrieval module that ranks relevant passages and returns source labels. Gemini generation is optional; lexical retrieval runs without an API key.
+### 1. Document Analysis + RAG
+FastAPI document Q&A demo with TXT/Markdown/PDF/DOCX ingestion, lexical retrieval, source-labelled passages, optional Gemini generation, API tests, and Docker setup.
 
 - [Source code](https://github.com/Hariharans1971/document_analysis)
-- [RAG architecture and setup](https://github.com/Hariharans1971/document_analysis/blob/main/RAG_GUIDE.md)
-- [CI workflow](https://github.com/Hariharans1971/document_analysis/actions)
+- [Architecture and setup](https://github.com/Hariharans1971/document_analysis/blob/main/RAG_GUIDE.md)
+- [CI runs](https://github.com/Hariharans1971/document_analysis/actions)
+
+**Current limitations:** lexical retrieval (not embeddings), in-memory document index, no authentication, no OCR, and not production-hardened.
+
+### 2. ClinicDesk — Full-stack appointment demo
+FastAPI, SQLite, HTML/CSS/JavaScript, request validation, persistence, and API tests.
+
+- [Source code](https://github.com/Hariharans1971/Clinic)
+- [CI runs](https://github.com/Hariharans1971/Clinic/actions)
+
+Educational demonstration only; do not use it for real patient data.
 
 ### 3. Inventory Management System
-A MySQL database project with 13 related tables, synthetic data, an ER diagram, and SQL reports for inventory, purchasing, sales, payments, and stock movement.
+MySQL database project with 13 relational tables, synthetic CSV data, an ER diagram, and SQL reports.
 
-- [Source code and documentation](https://github.com/Hariharans1971/inventory-management-system)
+- [Source code](https://github.com/Hariharans1971/inventory-management-system)
 
 ### 4. Student Performance Prediction
-A machine-learning project exploring student-performance data with classification models and visual analysis.
+Tabular machine-learning exercise covering data exploration, preprocessing, training, and classification evaluation.
 
 - [Source code](https://github.com/Hariharans1971/Student-Performance-ML-Project)
-- [Python syntax CI](https://github.com/Hariharans1971/Student-Performance-ML-Project/actions)
 
 ### 5. Zentrix AI
-A conversational AI chatbot project.
+Streamlit chatbot experiment using the Groq API.
 
 - [Source code](https://github.com/Hariharans1971/Zentrix-AI)
 
-## Engineering principles
+## Skills
 
-- **Readable over clever:** small functions, clear names, useful error messages
-- **Evidence over claims:** document what is implemented and avoid unverified performance numbers
-- **Test the behavior:** add unit/API tests and automate checks where practical
-- **Security by default:** keep credentials out of Git and use synthetic data for demos
-- **Reproducibility:** include setup commands, requirements, example inputs, and limitations
-
-## Tools I use
-
-**Languages:** Python, SQL, Java, JavaScript fundamentals  
-**Backend:** Flask/FastAPI fundamentals, REST, JSON  
-**Data/ML:** pandas, NumPy, Matplotlib, scikit-learn  
-**Databases:** MySQL, SQLite, PostgreSQL fundamentals  
-**Workflow:** Git, GitHub, Jupyter Notebook, Docker fundamentals, Azure AZ-900
+- **Languages:** Python, SQL, Java, JavaScript fundamentals
+- **Backend:** Flask/FastAPI fundamentals, REST APIs, JSON
+- **Data/ML:** pandas, NumPy, Matplotlib, scikit-learn
+- **Databases:** MySQL, SQLite, PostgreSQL fundamentals
+- **Tools:** Git, GitHub, Jupyter Notebook, Docker fundamentals, Azure AZ-900
 
 ## Experience
 
 - **Python Development Intern — Cognifyz Technologies:** Python automation and data-processing tasks.
 - **Machine Learning Intern — Cloudside Technologies:** machine-learning work and Flask REST API exposure.
 
-## Connect
+## Research
+
+First-author IEEE ICECA 2025 paper. See the final paper record for the official title, publication details, and experiments.
+
+## Engineering principles
+
+- Prefer readable code, reproducible setup, and useful tests.
+- Report measured results only when they can be reproduced.
+- Keep credentials and private data out of Git.
+- Explain limitations instead of calling learning projects production-ready.
+
+## Contact
 
 - [GitHub](https://github.com/Hariharans1971)
 - [LinkedIn](https://www.linkedin.com/in/hari-haran-b5aa50272/)
@@ -71,4 +68,4 @@ A conversational AI chatbot project.
 
 ---
 
-*This page is a project index. Each repository README describes what is implemented, how to run it, and the current limitations.*
+This repository is a project index. It is **not** the special GitHub profile README repository; that requires a repository named exactly `Hariharans1971`.
