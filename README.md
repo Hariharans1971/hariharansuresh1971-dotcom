@@ -1,5 +1,7 @@
 # Hariharan S. | Python Developer • Backend • AI/ML
 
+![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
+
 I am a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate in Chennai, India. I build practical Python projects and am strengthening my skills in REST APIs, SQL, full-stack development, and retrieval-augmented generation (RAG).
 
 ## Featured projects
@@ -9,7 +11,11 @@ FastAPI document Q&A demo with TXT/Markdown/PDF/DOCX ingestion, lexical retrieva
 
 - [Source code](https://github.com/Hariharans1971/document_analysis)
 - [Architecture and setup](https://github.com/Hariharans1971/document_analysis/blob/main/RAG_GUIDE.md)
+- [Architecture decisions and trade-offs](https://github.com/Hariharans1971/document_analysis/blob/main/docs/ARCHITECTURE.md)
+- [Reproducible retrieval benchmark](https://github.com/Hariharans1971/document_analysis/blob/main/benchmarks/retrieval_eval.py)
 - [CI runs](https://github.com/Hariharans1971/document_analysis/actions)
+
+**Synthetic benchmark baseline:** the six fixed demo queries achieved Recall@1 6/6, Recall@3 6/6, and MRR 1.000 in CI. This only checks expected behavior on a tiny synthetic fixture; it is not a claim about production accuracy or user impact.
 
 **Current limitations:** lexical retrieval (not embeddings), in-memory document index, no authentication, no OCR, and not production-hardened.
 
