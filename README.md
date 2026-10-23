@@ -60,7 +60,7 @@ A local Python application demonstrating marketing/HR workflow prototypes, a loc
 - [Security and deployment limitations](https://github.com/Hariharans1971/agent/blob/main/SECURITY.md)
 - [Validation CI](https://github.com/Hariharans1971/agent/actions/workflows/validate.yml)
 
-### 6. Zentrix AI
+### 7. Zentrix AI
 A Streamlit chatbot experiment with configurable Groq API integration, current-tree secret scanning, syntax validation, and safer error handling. Historical credential findings are still under remediation; do not consider its full Git history cleared yet.
 
 - [Source code](https://github.com/Hariharans1971/Zentrix-AI)
