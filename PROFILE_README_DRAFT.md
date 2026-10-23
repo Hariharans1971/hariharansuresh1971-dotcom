@@ -34,9 +34,9 @@ A learning project using FastAPI, SQLite, HTML/CSS/JavaScript, request validatio
 Educational demo only; it is not intended for real patient data.
 
 ### 4. Student Performance Prediction
-A tabular ML exercise covering preprocessing, training, and classification evaluation.
+A reproducible classifier evaluation with a fixed stratified split and majority-class baseline. Latest recorded CI on the tracked CSV (480 rows, 16 predictors): Random Forest accuracy 0.8083 and macro-F1 0.8118 versus baseline accuracy 0.4417 and macro-F1 0.2042. Dataset-specific holdout evidence only—not external validation or a basis for individual student decisions.
 
-- [Code](https://github.com/Hariharans1971/Student-Performance-ML-Project)
+- [Code and evaluation](https://github.com/Hariharans1971/Student-Performance-ML-Project)
 
 ## Open-source contribution in review
 
