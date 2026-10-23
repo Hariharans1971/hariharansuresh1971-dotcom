@@ -12,7 +12,7 @@ I'm a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in C
 
 ### 1. Agent Reliability Kit — AI-agent policy checks for CI
 
-A local-first Python tool for recording JSONL traces, comparing agent runs, and enforcing declarative policy checks in CI. Includes a reusable GitHub Action and documented limitations.
+A local-first Python tool for recording JSONL traces, comparing agent runs, and enforcing declarative policies in CI. It includes allowlists, per-event duration/token budgets, nested diff paths, JUnit XML reports, strict trace validation, and a reusable GitHub Action.
 
 - [Source code](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-)
 - [Policy contracts](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/blob/main/docs/POLICY_CONTRACTS.md)
