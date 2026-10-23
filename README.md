@@ -19,6 +19,7 @@ A local-first Python tool for recording JSONL traces, comparing agent runs, and 
 - [Source code](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-)
 - [Policy contracts](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/blob/main/docs/POLICY_CONTRACTS.md)
 - [CI checks](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions)
+- [Try the offline trace viewer](https://portfolio1-tau-sandy.vercel.app/ark-trace-viewer.html)
 
 
 ### 2. Document Analysis + RAG
