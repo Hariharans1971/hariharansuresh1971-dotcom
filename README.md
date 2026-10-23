@@ -2,7 +2,7 @@
 
 # Hariharan S. — Python, Backend & Applied AI
 
-![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions) [![Live-site verification](https://github.com/Hariharans1971/portfolio/actions/workflows/verify-live-site.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
+[![ARK policy and test CI](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions/workflows/tests.yml/badge.svg)](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions) [![ARK open issues](https://img.shields.io/github/issues/Hariharans1971/Agent-Reliability-Kit-ARK-)](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/issues) ![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions) [![Live-site verification](https://github.com/Hariharans1971/portfolio/actions/workflows/verify-live-site.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
 
 🌐 **Live portfolio:** [Vercel](https://portfolio1-tau-sandy.vercel.app/) · [GitHub Pages](https://hariharans1971.github.io/portfolio/) · [Source, CI and deployment status](https://github.com/Hariharans1971/portfolio/actions)
 
@@ -10,7 +10,7 @@ I'm a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in C
 
 ## Featured projects
 
-### Agent Reliability Kit — AI-agent policy checks for CI
+### 1. Agent Reliability Kit — AI-agent policy checks for CI
 
 A local-first Python tool for recording JSONL traces, comparing agent runs, and enforcing declarative policy checks in CI. Includes a reusable GitHub Action and documented limitations.
 
@@ -67,6 +67,8 @@ A Streamlit chatbot experiment with configurable Groq API integration, current-t
 - [Validation CI](https://github.com/Hariharans1971/Zentrix-AI/actions/workflows/validate.yml)
 
 ## Open-source contribution
+
+- [Agent Reliability Kit contribution issues](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/issues): policy contracts, trace diffs, and CI integration tasks for outside contributors.
 
 - [VueUse PR #5683 — support element refs in `useTextDirection`](https://github.com/vueuse/vueuse/pull/5683): proposes reading computed text direction from an element or Vue component ref while retaining the existing document-level API. The PR is open and awaiting upstream review/validation; it has not been merged.
 
