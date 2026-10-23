@@ -8,7 +8,19 @@ I’m a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in
 
 ## Featured proof of work
 
-### 1. Document Analysis + RAG
+### 1. Agent Reliability Kit (ARK) — AI-agent policy checks for CI
+A local-first Python toolkit that records agent workflows as JSONL traces, compares runs, and enforces explicit policies for required/forbidden events, call counts, and recorded duration/token budgets. Includes a reusable GitHub Action, tests, a contribution roadmap, and a custom visual identity.
+
+- [Repository](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-)
+- [Architecture and limitations](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/blob/main/docs/ARCHITECTURE.md)
+- [Policy contracts](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/blob/main/docs/POLICY_CONTRACTS.md)
+- [CI checks](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions)
+- [Good first issue](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/issues/3)
+
+**Scope and limitations:** an early-stage developer tool, not an agent runtime or formal safety guarantee. Policy checks depend on complete, correctly recorded traces.
+
+
+### 2. Document Analysis + RAG
 A FastAPI document-question-answering system with document ingestion, lexical retrieval, source-labelled passages, optional LLM generation, tests, and Docker setup.
 
 - [Code](https://github.com/Hariharans1971/document_analysis)
@@ -20,12 +32,12 @@ A FastAPI document-question-answering system with document ingestion, lexical re
 
 **Known limitations:** lexical retrieval rather than embeddings, in-memory index, no authentication, no OCR, and not production-hardened.
 
-### 2. Inventory Management System
+### 3. Inventory Management System
 A MySQL 8 project with 13 relational tables, an ER diagram, and 5,795 synthetic rows across inventory and business transaction tables.
 
 - [Code and documentation](https://github.com/Hariharans1971/inventory-management-system)
 
-### 3. ClinicDesk — appointment workflow demo
+### 4. ClinicDesk — appointment workflow demo
 A learning project using FastAPI, SQLite, HTML/CSS/JavaScript, request validation, persistence, status filtering, and API tests.
 
 - [Code](https://github.com/Hariharans1971/Clinic)
@@ -33,7 +45,7 @@ A learning project using FastAPI, SQLite, HTML/CSS/JavaScript, request validatio
 
 Educational demo only; it is not intended for real patient data.
 
-### 4. Student Performance Prediction
+### 5. Student Performance Prediction
 A reproducible classifier evaluation with a fixed stratified split and majority-class baseline. Latest recorded CI on the tracked CSV (480 rows, 16 predictors): Random Forest accuracy 0.8083 and macro-F1 0.8118 versus baseline accuracy 0.4417 and macro-F1 0.2042. Dataset-specific holdout evidence only—not external validation or a basis for individual student decisions.
 
 - [Code and evaluation](https://github.com/Hariharans1971/Student-Performance-ML-Project)
