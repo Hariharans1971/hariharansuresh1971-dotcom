@@ -19,7 +19,7 @@ A local-first Python tool for recording JSONL traces, comparing agent runs, and 
 - [CI checks](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions)
 
 
-### 1. Document Analysis + RAG
+### 2. Document Analysis + RAG
 A FastAPI document-question-answering demo with TXT/Markdown/PDF/DOCX ingestion, lexical retrieval, source-labelled passages, optional Gemini generation, API tests, and Docker setup.
 
 - [Source code](https://github.com/Hariharans1971/document_analysis)
@@ -32,7 +32,7 @@ A FastAPI document-question-answering demo with TXT/Markdown/PDF/DOCX ingestion,
 
 **Known limitations:** lexical retrieval rather than embeddings, in-memory index, no authentication, no OCR, and not production-hardened.
 
-### 2. ClinicDesk — Full-stack appointment demo
+### 3. ClinicDesk — Full-stack appointment demo
 FastAPI, SQLite, HTML/CSS/JavaScript, input validation, persistence, status filtering, and API tests. Includes a small REST API and interactive API documentation.
 
 - [Source code](https://github.com/Hariharans1971/Clinic)
@@ -40,20 +40,20 @@ FastAPI, SQLite, HTML/CSS/JavaScript, input validation, persistence, status filt
 
 Educational demo only; do not use it for real patient data. Authentication, authorization, and clinical privacy controls are not implemented.
 
-### 3. Inventory Management System
+### 4. Inventory Management System
 MySQL 8 database project with 13 relational tables and 5,795 synthetic rows across products, warehouses, purchasing, sales, payments, customers, employees, and stock movements.
 
 - [Source code and documentation](https://github.com/Hariharans1971/inventory-management-system)
 
 The row count describes the local demonstration dataset; it is not a performance or business-impact claim.
 
-### 4. Student Performance Prediction
+### 5. Student Performance Prediction
 Reproducible tabular ML evaluation with a fixed stratified holdout split and a majority-class baseline. In the latest recorded CI run on the tracked CSV (480 rows, 16 predictors), the Random Forest reached 0.8083 accuracy and 0.8118 macro-F1, versus 0.4417 accuracy and 0.2042 macro-F1 for the baseline. These are dataset-specific holdout metrics, not external validation or proof of causal relationships.
 
 - [Source code and evaluation details](https://github.com/Hariharans1971/Student-Performance-ML-Project)
 - [Latest CI run](https://github.com/Hariharans1971/Student-Performance-ML-Project/actions)
 
-### 5. AltiusNxt Team Copilot — Local workflow demo
+### 6. AltiusNxt Team Copilot — Local workflow demo
 A local Python application demonstrating marketing/HR workflow prototypes, a local knowledge base, saved drafts, document upload, and role-aware access. It has unit tests, cross-role smoke checks, request-size validation, and a current-tree secret scan in GitHub Actions.
 
 - [Source code](https://github.com/Hariharans1971/agent)
