@@ -2,6 +2,8 @@
 
 # Hariharan S. — Python, Backend & Applied AI
 
+[![ARK stars](https://img.shields.io/github/stars/Hariharans1971/Agent-Reliability-Kit-ARK-?style=social)](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/stargazers) [![ARK CI](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions/workflows/tests.yml/badge.svg)](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions)
+
 [![ARK policy and test CI](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions/workflows/tests.yml/badge.svg)](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions) [![ARK open issues](https://img.shields.io/github/issues/Hariharans1971/Agent-Reliability-Kit-ARK-)](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/issues) ![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions) [![Live-site verification](https://github.com/Hariharans1971/portfolio/actions/workflows/verify-live-site.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
 
 🌐 **Live portfolio:** [Vercel](https://portfolio1-tau-sandy.vercel.app/) · [GitHub Pages](https://hariharans1971.github.io/portfolio/) · [Source, CI and deployment status](https://github.com/Hariharans1971/portfolio/actions)
