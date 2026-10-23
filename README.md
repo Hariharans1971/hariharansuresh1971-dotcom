@@ -8,6 +8,15 @@ I am a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in 
 
 ## Featured projects
 
+### Agent Reliability Kit — AI-agent policy checks for CI
+
+A local-first Python tool for recording JSONL traces, comparing agent runs, and enforcing declarative policy checks in CI. Includes a reusable GitHub Action and documented limitations.
+
+- [Source code](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-)
+- [Policy contracts](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/blob/main/docs/POLICY_CONTRACTS.md)
+- [CI checks](https://github.com/Hariharans1971/Agent-Reliability-Kit-ARK-/actions)
+
+
 ### 1. Document Analysis + RAG
 A FastAPI document-question-answering demo with TXT/Markdown/PDF/DOCX ingestion, lexical retrieval, source-labelled passages, optional Gemini generation, API tests, and Docker setup.
 
