@@ -16,7 +16,7 @@ A FastAPI document-question-answering system with document ingestion, lexical re
 - [RAG guide](https://github.com/Hariharans1971/document_analysis/blob/main/RAG_GUIDE.md)
 - [CI runs](https://github.com/Hariharans1971/document_analysis/actions)
 
-**Measured baseline:** Six fixed synthetic queries achieved Recall@1 = 1.00, Recall@3 = 1.00, and MRR = 1.00 in the smoke benchmark. This is a tiny synthetic fixture, not evidence of production retrieval quality.
+**Measured synthetic regression set (CI, 24 labelled queries):** Recall@1 = 0.833 (20/24), Recall@3 = 1.000 (24/24), MRR = 0.910. A distinct-term-overlap baseline scored Recall@1 = 0.833, Recall@3 = 0.958 (23/24), and MRR = 0.889. All six authored negative smoke queries returned no passages. These authored fixture results are regression evidence, not independent real-world quality evidence.
 
 **Known limitations:** lexical retrieval rather than embeddings, in-memory index, no authentication, no OCR, and not production-hardened.
 
