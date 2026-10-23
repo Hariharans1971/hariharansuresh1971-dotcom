@@ -1,4 +1,6 @@
-# Hariharan S. — Python, Backend & AI/ML Developer
+![Hariharan S. — Python, Backend & Applied AI](https://raw.githubusercontent.com/Hariharans1971/hariharansuresh1971-dotcom/main/assets/github-profile-banner.svg)
+
+# Hariharan S. — Python, Backend & Applied AI
 
 I’m a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in Chennai, India. I build practical Python applications and am developing toward backend and AI systems engineering—with a focus on APIs, data workflows, retrieval-augmented generation (RAG), tests, and clear engineering trade-offs.
 
