@@ -17,7 +17,7 @@ A FastAPI document-question-answering demo with TXT/Markdown/PDF/DOCX ingestion,
 - [Reproducible retrieval benchmark](https://github.com/Hariharans1971/document_analysis/blob/main/benchmarks/retrieval_eval.py)
 - [CI runs](https://github.com/Hariharans1971/document_analysis/actions)
 
-**Measured baseline:** six fixed synthetic queries achieved Recall@1 = 1.00, Recall@3 = 1.00, and MRR = 1.00 in the documented smoke benchmark. This is a tiny synthetic test fixture, not evidence of production retrieval quality or user impact.
+**Measured synthetic regression set (CI, 24 labelled queries):** Recall@1 = 0.833 (20/24), Recall@3 = 1.000 (24/24), MRR = 0.910. A distinct-term-overlap baseline scored Recall@1 = 0.833, Recall@3 = 0.958 (23/24), and MRR = 0.889. All six authored negative smoke queries returned no passages. These authored fixture results show regression behavior, not independent real-world quality or user impact.
 
 **Known limitations:** lexical retrieval rather than embeddings, in-memory index, no authentication, no OCR, and not production-hardened.
 
