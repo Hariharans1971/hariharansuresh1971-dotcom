@@ -41,10 +41,18 @@ Tabular ML exercise covering data exploration, preprocessing, model training, an
 
 - [Source code](https://github.com/Hariharans1971/Student-Performance-ML-Project)
 
-### 5. Zentrix AI
-A Streamlit chatbot experiment with configurable Groq API integration.
+### 5. AltiusNxt Team Copilot — Local workflow demo
+A local Python application demonstrating marketing/HR workflow prototypes, a local knowledge base, saved drafts, document upload, and role-aware access. It has unit tests, cross-role smoke checks, request-size validation, and a current-tree secret scan in GitHub Actions.
+
+- [Source code](https://github.com/Hariharans1971/agent)
+- [Security and deployment limitations](https://github.com/Hariharans1971/agent/blob/main/SECURITY.md)
+- [Validation CI](https://github.com/Hariharans1971/agent/actions/workflows/validate.yml)
+
+### 6. Zentrix AI
+A Streamlit chatbot experiment with configurable Groq API integration, current-tree secret scanning, syntax validation, and safer error handling. Historical credential findings are still under remediation; do not consider its full Git history cleared yet.
 
 - [Source code](https://github.com/Hariharans1971/Zentrix-AI)
+- [Validation CI](https://github.com/Hariharans1971/Zentrix-AI/actions/workflows/validate.yml)
 
 ## Open-source contribution
 
