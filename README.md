@@ -1,48 +1,54 @@
 # Hariharan S. | Python Developer • Backend • AI/ML
 
-![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
+![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions) [![Live-site verification](https://github.com/Hariharans1971/portfolio/actions/workflows/verify-live-site.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
 
 🌐 **Live portfolio:** [Vercel](https://portfolio1-tau-sandy.vercel.app/) · [GitHub Pages](https://hariharans1971.github.io/portfolio/) · [Source, CI and deployment status](https://github.com/Hariharans1971/portfolio/actions)
 
-I am a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate in Chennai, India. I build practical Python projects and am strengthening my skills in REST APIs, SQL, full-stack development, and retrieval-augmented generation (RAG).
+I am a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in Chennai, India. I build practical Python applications and focus on backend APIs, data workflows, SQL, and retrieval-augmented generation (RAG). My portfolio emphasizes reproducible setup, test evidence, measured results, and honest limitations rather than unsupported production claims.
 
 ## Featured projects
 
 ### 1. Document Analysis + RAG
-FastAPI document Q&A demo with TXT/Markdown/PDF/DOCX ingestion, lexical retrieval, source-labelled passages, optional Gemini generation, API tests, and Docker setup.
+A FastAPI document-question-answering demo with TXT/Markdown/PDF/DOCX ingestion, lexical retrieval, source-labelled passages, optional Gemini generation, API tests, and Docker setup.
 
 - [Source code](https://github.com/Hariharans1971/document_analysis)
-- [Architecture and setup](https://github.com/Hariharans1971/document_analysis/blob/main/RAG_GUIDE.md)
-- [Architecture decisions and trade-offs](https://github.com/Hariharans1971/document_analysis/blob/main/docs/ARCHITECTURE.md)
+- [Architecture and trade-offs](https://github.com/Hariharans1971/document_analysis/blob/main/docs/ARCHITECTURE.md)
+- [RAG guide and API details](https://github.com/Hariharans1971/document_analysis/blob/main/RAG_GUIDE.md)
 - [Reproducible retrieval benchmark](https://github.com/Hariharans1971/document_analysis/blob/main/benchmarks/retrieval_eval.py)
 - [CI runs](https://github.com/Hariharans1971/document_analysis/actions)
 
-**Synthetic benchmark baseline:** the six fixed demo queries achieved Recall@1 6/6, Recall@3 6/6, and MRR 1.000 in CI. This only checks expected behavior on a tiny synthetic fixture; it is not a claim about production accuracy or user impact.
+**Measured baseline:** six fixed synthetic queries achieved Recall@1 = 1.00, Recall@3 = 1.00, and MRR = 1.00 in the documented smoke benchmark. This is a tiny synthetic test fixture, not evidence of production retrieval quality or user impact.
 
-**Current limitations:** lexical retrieval (not embeddings), in-memory document index, no authentication, no OCR, and not production-hardened.
+**Known limitations:** lexical retrieval rather than embeddings, in-memory index, no authentication, no OCR, and not production-hardened.
 
 ### 2. ClinicDesk — Full-stack appointment demo
-FastAPI, SQLite, HTML/CSS/JavaScript, request validation, persistence, and API tests.
+FastAPI, SQLite, HTML/CSS/JavaScript, input validation, persistence, status filtering, and API tests. Includes a small REST API and interactive API documentation.
 
 - [Source code](https://github.com/Hariharans1971/Clinic)
 - [CI runs](https://github.com/Hariharans1971/Clinic/actions)
 
-Educational demonstration only; do not use it for real patient data.
+Educational demo only; do not use it for real patient data. Authentication, authorization, and clinical privacy controls are not implemented.
 
 ### 3. Inventory Management System
-MySQL database project with 13 relational tables, synthetic CSV data, an ER diagram, and SQL reports.
+MySQL 8 database project with 13 relational tables and 5,795 synthetic rows across products, warehouses, purchasing, sales, payments, customers, employees, and stock movements.
 
-- [Source code](https://github.com/Hariharans1971/inventory-management-system)
+- [Source code and documentation](https://github.com/Hariharans1971/inventory-management-system)
+
+The row count describes the local demonstration dataset; it is not a performance or business-impact claim.
 
 ### 4. Student Performance Prediction
-Tabular machine-learning exercise covering data exploration, preprocessing, training, and classification evaluation.
+Tabular ML exercise covering data exploration, preprocessing, model training, and classification evaluation.
 
 - [Source code](https://github.com/Hariharans1971/Student-Performance-ML-Project)
 
 ### 5. Zentrix AI
-Streamlit chatbot experiment using the Groq API.
+A Streamlit chatbot experiment with configurable Groq API integration.
 
 - [Source code](https://github.com/Hariharans1971/Zentrix-AI)
+
+## Open-source contribution
+
+- [VueUse PR #5683 — support element refs in `useTextDirection`](https://github.com/vueuse/vueuse/pull/5683): proposes reading computed text direction from an element or Vue component ref while retaining the existing document-level API. The PR is open and awaiting upstream review/validation; it has not been merged.
 
 ## Skills
 
@@ -54,12 +60,12 @@ Streamlit chatbot experiment using the Groq API.
 
 ## Experience
 
-- **Python Development Intern — Cognifyz Technologies:** Python automation and data-processing tasks.
+- **Python Development Intern — Cognifyz Technologies:** automation and data-processing tasks.
 - **Machine Learning Intern — Cloudside Technologies:** machine-learning work and Flask REST API exposure.
 
 ## Research
 
-First-author IEEE ICECA 2025 paper: [“An Advanced Drug Mechanism of Action (MoA) Prediction Approach from Gene Expression using Transformers and XAI”](https://doi.org/10.1109/ICECA66444.2025.11383205). The matching project prototype is [Drug-MOA-prediction](https://github.com/Hariharans1971/Drug-MOA-prediction).
+First-author IEEE ICECA 2025 paper: [“An Advanced Drug Mechanism of Action (MoA) Prediction Approach from Gene Expression using Transformers and XAI”](https://doi.org/10.1109/ICECA66444.2025.11383205). The related research prototype is [Drug-MOA-prediction](https://github.com/Hariharans1971/Drug-MOA-prediction).
 
 ## Engineering principles
 
@@ -67,6 +73,7 @@ First-author IEEE ICECA 2025 paper: [“An Advanced Drug Mechanism of Action (Mo
 - Report measured results only when they can be reproduced.
 - Keep credentials and private data out of Git.
 - Explain limitations instead of calling learning projects production-ready.
+- Treat code-review and CI results as evidence; do not equate an open PR with an accepted contribution.
 
 ## Contact
 
