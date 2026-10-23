@@ -1,10 +1,12 @@
-# Hariharan S. | Python Developer • Backend • AI/ML
+![Hariharan S. — Python, Backend & Applied AI](https://raw.githubusercontent.com/Hariharans1971/hariharansuresh1971-dotcom/main/assets/github-profile-banner.svg)
+
+# Hariharan S. — Python, Backend & Applied AI
 
 ![Document Analysis CI](https://github.com/Hariharans1971/document_analysis/actions/workflows/tests.yml/badge.svg) [![Portfolio deployment](https://github.com/Hariharans1971/portfolio/actions/workflows/pages.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions) [![Live-site verification](https://github.com/Hariharans1971/portfolio/actions/workflows/verify-live-site.yml/badge.svg)](https://github.com/Hariharans1971/portfolio/actions)
 
 🌐 **Live portfolio:** [Vercel](https://portfolio1-tau-sandy.vercel.app/) · [GitHub Pages](https://hariharans1971.github.io/portfolio/) · [Source, CI and deployment status](https://github.com/Hariharans1971/portfolio/actions)
 
-I am a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in Chennai, India. I build practical Python applications and focus on backend APIs, data workflows, SQL, and retrieval-augmented generation (RAG). My portfolio emphasizes reproducible setup, test evidence, measured results, and honest limitations rather than unsupported production claims.
+I'm a 2026 B.Tech Computer Science and Engineering (AI & ML) graduate based in Chennai, India. I build practical Python applications and focus on backend APIs, SQL/data workflows, retrieval-augmented generation (RAG), and AI-agent reliability. I value reproducible setup, test evidence, measured results, and honest limitations over unsupported production claims.
 
 ## Featured projects
 
